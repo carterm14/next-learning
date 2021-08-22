@@ -1,4 +1,4 @@
-import StockList from '../components/StockList'
+import StockList from '../components/StockList.js'
 
 export default function Home({stocks}) {
   return (

@@ -1,4 +1,4 @@
-import Meta from "../components/Meta"
+import Meta from "../components/Meta.js"
 import aboutStyles from "../styles/About.module.css"
 
 const about = () => {

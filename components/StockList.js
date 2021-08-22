@@ -1,5 +1,5 @@
 import stockStyles from '../styles/Stock.module.css'
-import StockItem from './StockItem'
+import StockItem from './StockItem.js'
 
 const StockList = ({stocks}) => {
   return (
