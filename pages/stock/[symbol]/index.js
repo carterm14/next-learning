@@ -17,8 +17,9 @@ const stock = ({stock}) => {
 }
 
 export const getStaticProps = async (context) => {
-  const res = await fetch(`${server}/api/stocks/${context.params.symbol}`)
-  const stock = await res.json()
+  const res = await fetch(`https://universal.hellopublic.com/exercises/stocks.json`)
+  const { stocks } = await res.json()
+  const stock = stocks.find(stock => stock.symbol === context.params.symbol)
   return {
     props: {
       stock
