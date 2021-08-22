@@ -4,10 +4,10 @@ const Header = () => {
   return (
     <div>
       <h1 className={headerStyles.title}>
-        <span>WebDev</span> News
+        <span>Public.com</span> Sample
       </h1>
       <p className={headerStyles.description}>
-        Keep up to date with the latest stuff
+        Converting exercise 2 into NextJS
       </p>
     </div>
   )

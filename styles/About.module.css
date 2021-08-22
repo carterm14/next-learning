@@ -1,0 +1,14 @@
+.image {
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  
+}
+
+.description {
+  margin-left: 25%;
+  margin-right: 25%;
+}
